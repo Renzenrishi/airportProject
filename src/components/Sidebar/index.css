@@ -1,0 +1,64 @@
+.sidebar {
+  position: fixed;
+  top: 60px; /* Below the header */
+  left: 0;
+  width: Fixed (272px) px;
+  height: 100vh; /* Full height minus header height */
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  z-index: 1000;
+  padding: 20px 16px 16px 16px;
+  gap: 16px;
+  opacity: 0px;
+  box-shadow: 0px 1px 4px 0px #00000026;
+}
+
+.section-1 {
+  width: Fill (240px) px;
+  height: Hug (68px) px;
+  gap: 0px;
+  opacity: 0px;
+  margin-bottom: 10px;
+}
+
+.icon {
+  margin-right: 10px;
+}
+
+.label-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.nav-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+  border-width: 0px;
+  cursor: pointer;
+}
+
+.section-2 {
+  list-style-type: none;
+  padding: 0px;
+}
+
+.nav-header {
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.nav-item {
+  font-size: 15px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.section-3 {
+  list-style-type: none;
+  padding: 0px;
+}

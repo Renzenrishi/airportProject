@@ -1,0 +1,37 @@
+.main-content {
+  margin-top: 60px; /* Below the header */
+  margin-left: 200px; /* Beside the sidebar */
+  padding: 20px;
+}
+
+.airport-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.add-btn {
+  background-color: black;
+  border-width: 0px;
+}
+
+.list-container {
+  list-style-type: none;
+  padding: 0px;
+  border-color: grey;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 10px;
+}
+
+.item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+}
+
+.space {
+  width: 65vw;
+}
