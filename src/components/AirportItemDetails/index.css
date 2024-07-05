@@ -1,0 +1,32 @@
+.bg-container {
+  margin-top: 60px; /* Below the header */
+  margin-left: 200px; /* Beside the sidebar */
+  padding: 20px;
+}
+
+.tab-container {
+  list-style-type: none;
+  padding: 0px;
+  display: flex;
+  align-items: center;
+}
+
+.tab {
+  margin-right: 10px;
+}
+
+.card-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 25px;
+  width: 55vw;
+}
+
+.form-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}

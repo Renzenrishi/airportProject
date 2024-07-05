@@ -30,7 +30,7 @@ const Sidebar = () => (
     </div>
     <ul className="section-2">
       <p className="nav-header">Services</p>
-      <li className="nav-item">Airports</li>
+      <li className="nav-item active">Airports</li>
       <li className="nav-item">Videos</li>
     </ul>
     <ul className="section-3">

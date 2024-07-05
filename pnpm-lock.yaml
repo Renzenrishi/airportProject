@@ -3,6 +3,7 @@ lockfileVersion: 5.3
 specifiers:
   '@adobe/react-spectrum': 3.35.1
   '@craco/craco': 6.1.1
+  '@spectrum-icons/workflow': 4.2.12
   '@testing-library/jest-dom': 5.11.9
   '@testing-library/react': 11.2.5
   '@testing-library/user-event': 12.6.2
@@ -36,6 +37,7 @@ specifiers:
 dependencies:
   '@adobe/react-spectrum': 3.35.1_react-dom@17.0.1+react@17.0.1
   '@craco/craco': 6.1.1_react-scripts@4.0.3
+  '@spectrum-icons/workflow': 4.2.12_react-dom@17.0.1+react@17.0.1
   '@testing-library/jest-dom': 5.11.9
   '@testing-library/react': 11.2.5_react-dom@17.0.1+react@17.0.1
   '@testing-library/user-event': 12.6.2
@@ -4510,6 +4512,19 @@ packages:
       react: 17.0.1
     dev: false
 
+  /@react-spectrum/icon/3.7.13_react@17.0.1:
+    resolution: {integrity: sha512-hbd1OZ2UOOZ807zkU/ay8TWQOSnB56cj9HHm3FzUBjpTwpt849Pvk4TBO5K2SAmuQi4gslmvFGmd8BoOEoEcjg==}
+    peerDependencies:
+      '@react-spectrum/provider': ^3.0.0
+      react: ^16.8.0 || ^17.0.0-rc.1 || ^18.0.0
+    dependencies:
+      '@react-aria/utils': 3.24.1_react@17.0.1
+      '@react-spectrum/utils': 3.11.7_react@17.0.1
+      '@react-types/shared': 3.23.1_react@17.0.1
+      '@swc/helpers': 0.5.11
+      react: 17.0.1
+    dev: false
+
   /@react-spectrum/illustratedmessage/3.5.1_e4dd85c918340148bc17c7403e55d843:
     resolution: {integrity: sha512-HpTueLW3duV1TE3sYw5WeBaGECqS0RVEXr2UaXDXSLteY238Oc7prli2qPk2xaGeRKgh97jsfySDBOvedCuZJQ==}
     peerDependencies:
@@ -6009,6 +6024,20 @@ packages:
       '@adobe/react-spectrum-workflow': 2.3.4_react-dom@17.0.1+react@17.0.1
       '@react-spectrum/icon': 3.7.13_e4dd85c918340148bc17c7403e55d843
       '@react-spectrum/provider': 3.9.7_react-dom@17.0.1+react@17.0.1
+      '@swc/helpers': 0.5.11
+      react: 17.0.1
+    transitivePeerDependencies:
+      - react-dom
+    dev: false
+
+  /@spectrum-icons/workflow/4.2.12_react-dom@17.0.1+react@17.0.1:
+    resolution: {integrity: sha512-xuyytdlM09DEZO7/vSp5z8Y2RYNXL4OOYSmOaWXeYgIa3iPNKz0HW+iVR2P+Ht0iBtKjPvRobbEFb0k280U4yQ==}
+    peerDependencies:
+      '@react-spectrum/provider': ^3.0.0
+      react: ^16.8.0 || ^17.0.0-rc.1 || ^18.0.0
+    dependencies:
+      '@adobe/react-spectrum-workflow': 2.3.4_react-dom@17.0.1+react@17.0.1
+      '@react-spectrum/icon': 3.7.13_react@17.0.1
       '@swc/helpers': 0.5.11
       react: 17.0.1
     transitivePeerDependencies:

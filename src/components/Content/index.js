@@ -1,6 +1,14 @@
 import './index.css'
 
-import {Text, Button} from '@adobe/react-spectrum'
+import {
+  Button,
+  Cell,
+  Column,
+  Row,
+  TableView,
+  TableBody,
+  TableHeader,
+} from '@adobe/react-spectrum'
 
 import AirportItem from '../AirportItem'
 
@@ -50,12 +58,45 @@ const style = {
 const MainContent = () => (
   <main className="main-content">
     <div className="airport-container">
-      <h1>Airports</h1>
-      <Button variant="primary" className="add-btn">
-        <Text>+Add new</Text>
+      <h2>Airports</h2>
+      <Button
+        variant="primary"
+        UNSAFE_style={{
+          backgroundColor: 'black',
+          color: 'white',
+          padding: '5px',
+          borderRadius: '20px',
+          width: '120px',
+          cursor: 'pointer',
+        }}
+      >
+        +Add new
       </Button>
     </div>
     <div className="item">
+      <TableView
+        aria-label="Airport table"
+        selectionMode="multiple"
+        width="100%"
+      >
+        <TableHeader>
+          <Column>Name</Column>
+          <Column>Country</Column>
+          <Column>Code</Column>
+          <Column align="end">Terminals</Column>
+        </TableHeader>
+        <TableBody>
+          {airportsData.map(({id, name, country, code, terminals}) => (
+            <Row key={id}>
+              <Cell>{name}</Cell>
+              <Cell>{country}</Cell>
+              <Cell>{code}</Cell>
+              <Cell align="end">{terminals}</Cell>
+            </Row>
+          ))}
+        </TableBody>
+      </TableView>
+
       <div className="space">
         <input type="checkbox" id="x" />
         <label htmlFor="x" style={style}>

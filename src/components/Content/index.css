@@ -11,17 +11,9 @@
   align-items: center;
 }
 
-.add-btn {
-  background-color: black;
-  border-width: 0px;
-}
-
 .list-container {
   list-style-type: none;
   padding: 0px;
-  border-color: grey;
-  border-style: solid;
-  border-width: 1px;
   border-radius: 10px;
 }
 
